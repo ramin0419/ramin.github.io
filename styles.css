@@ -1,0 +1,95 @@
+/* Style for the header */
+header {
+  background-color: #333; /* Background color */
+  color: #fff; /* Text color */
+  padding: 20px; /* Add spacing around content */
+  text-align: center; /* Center align text */
+}
+
+/* Style for the main content section */
+main {
+  padding: 20px; /* Add spacing around content */
+}
+
+/* Style for headings */
+h1 {
+  font-size: 36px; /* Font size */
+  margin-bottom: 10px; /* Add spacing below the heading */
+}
+
+h2 {
+  font-size: 24px; /* Font size */
+  margin-bottom: 10px; /* Add spacing below the heading */
+}
+
+/* Style for paragraphs */
+p {
+  font-size: 16px; /* Font size */
+  line-height: 1.5; /* Line spacing */
+  margin-bottom: 20px; /* Add spacing below paragraphs */
+}
+
+/* Basic styling for team member profiles */
+.team-member {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.team-member img {
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+.team-member h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+/* Basic styling for portfolio projects */
+.project {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.project p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* Basic styling for services */
+.service {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.service h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.service p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Add more styling as needed */
+
+/* Add more styling as needed */
+
+/* Add more styling as needed */

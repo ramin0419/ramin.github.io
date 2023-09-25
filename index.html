@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Header content goes here -->
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <!-- Add more menu items as needed -->
+      </ul>
+
+      <ul>
+        <li><a href="dashboard.php">Dashboard</a></li>
+        <li><a href="documents.php">Documents</a></li>
+        <li><a href="profile.php">Profile</a></li>
+        <li><a href="logout.php">Logout</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="home">
+        <h1>Welcome to Our Website</h1>
+        <p>...</p>
+      </section>
+
+      <section id="about">
+        <h2>About Us</h2>
+        <p>...</p>
+      </section>
+
+      <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+          <li>Service 1</li>
+          <li>Service 2</li>
+          <!-- Add more services as needed -->
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>Follow us on social media:</p>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/YourPage" target="_blank"
+            >Facebook</a
+          >
+        </li>
+        <li>
+          <a href="https://twitter.com/YourTwitter" target="_blank">Twitter</a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/company/your-company"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <!-- Add more social media links as needed -->
+      </ul>
+    </footer>
+  </body>
+  <script>
+    var slideIndex = 0;
+
+    function showSlides() {
+      var slides = document.getElementsByClassName('mySlides');
+      for (var i = 0; i < slides.length; i++) {
+        slides[i].style.display = 'none';
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1;
+      }
+      slides[slideIndex - 1].style.display = 'block';
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    showSlides();
+  </script>
+</html>
